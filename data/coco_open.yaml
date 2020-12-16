@@ -1,6 +1,6 @@
-#German dataset
-# Train command: python train.py --data coco.yaml
-# Default dataset location is next to /yolov3:
+#open image traffic sign dataset
+# Train command: python train.py --data coco_open.yaml
+# Default dataset location is next to /open_image:
 #   /parent_folder
 #     /coco
 #     /yolov3
@@ -10,8 +10,8 @@
 #download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: ../yolov3/coco/images/train/  # 381 images
-val: ../yolov3/coco/images/val/  # 127 images
+train: ../open_image/coco/images/train/  # 
+val: ../open_image/coco/images/val/  # 
 
 # number of classes
 nc: 1
